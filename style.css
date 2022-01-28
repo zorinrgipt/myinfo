@@ -17,12 +17,14 @@ h1{
     line-height: 2;
 }
 h2{
+    text-align: center;
     font-family:'Montserrat',sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal
 }
 h3{
+    text-align: center;
     font-family:'Montserrat', sans-serif;
     color: #11999E
 }
@@ -50,11 +52,20 @@ h3{
     font-weight: bold;
 
 }
+.profile> img{
+    display:block;
+    width:20%;
+
+    margin: 0px auto 0px auto;
+}
 .skillimg{
     width: 25%;
-    position: relative;
+    display:block;
+    margin: 0px auto 0px auto;
+
     text-align: center;
 }
 p{
+    text-align: center;
 
 }
