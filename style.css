@@ -26,13 +26,38 @@ h2{
 h3{
     text-align: center;
     font-family:'Montserrat', sans-serif;
-    color: #11999E
+    color: #11999E;
+    font-family:'Sacramento', cursive;
+    font-size: 45px;
+
 }
 .mb{
     padding-top: 100px;
-    background-color: #FEECE9;
+    background-color: #E3FDFD;
     text-align: center;
     position:relative;
+    width: 100vw;
+    height: 90vh;
+}
+.profile{
+    background-color:#CBF1F5;
+}
+.profile> p{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 2;
+    font-family:'Montserrat', sans-serif;
+    font-variant: small-caps;
+
+}
+.profile> p> span{
+    text-decoration: underline;
+
+}
+.skills{
+    background-color:#A6E3E9;
+    background-image: repeating-linear-gradient();
+    margin-bottom: :0px;
 }
 .cloud1{
     position: relative;
@@ -45,11 +70,12 @@ h3{
 }
 .mountain{
     text-align: center;
-    width: 50%;
+    width: 20%;
 }
 .pro{
     text-decoration: underline;
     font-weight: bold;
+    text-decoration:
 
 }
 .profile> img{
@@ -58,18 +84,81 @@ h3{
 
     margin: 0px auto 0px auto;
 }
-.skillimg{
-    width: 25%;
+.skill-row{
+    width: 50%;
+    margin: 100px auto 0px auto;
+    text-align: left;
+    line-height: 2;
     display:block;
-    margin: 0px auto 0px auto;
 
+}
+.skill-row>skillimg1 skillimg2 skillimg3{
+    position: relative;
+}
+.skill-row> p{
+    font-size: 18px;
     text-align: center;
+}
+
+.paradiv{
+    margin-top: 65px;
+}
+.skillimg1{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+    position: relative;
+
+
+}
+.skillimg2{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+}
+.skillimg3{
+    width:20%;
+    float:left;
+    margin-right: 30px;
+
+}
+.paradiv{
+
 }
 p{
     text-align: center;
 
 }
-.bottom-container{
-    text-align:center;
+.contact-me{
+    padding-top: 50px;
 }
-    
+.bottom-container{
+    text-align: center;
+    color: #FFF323;
+    background-color:#000000;
+}
+.footer-link> img{
+    width:30px;
+
+
+}
+.contact-me{
+    text-align: center;
+    color: #FFF323;
+    background-color:#000000;
+}
+.fbottom{
+    background-color:#000000;
+
+}
+.btn> img{
+    width:40px;
+
+}
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
